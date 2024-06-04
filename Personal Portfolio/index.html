@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/dada959682.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skill</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software engineer</p>
+                <h1>Hi,I am <span>Zeeshan</span><br> cse 3rd year student</h1>
+            </div>
+        </div>
+        <!----------------about-------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am zeeshan of computer science student in Bharti vidya peeth college of 
+                        engineering pune,my area of interest lies in software development.Also i am
+                        interested in data science and machine learning .
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web app interface</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building android and ios app</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>learning </span><br>Designing web app interface</li>
+                            <li><span>learning</span><br>Web app development</li>
+                            <li><span>learning</span><br>Building android and ios app</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>10th from shanti niketan school</li>
+                            <li><span>2019</span><br>12th from shanti niketan school</li>
+                            <li><span>2021-2025</span><br>B-tech from bharti vidya peeth</li>
+                        </ul>
+                    </div
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------Skills---------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>I am learning many more skills ,but i am more emphasize on web development
+                        now i complete my front end development part and i am doing my project ,then after i 
+                        i will learn back-end development.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Python</h2>
+                    <p>I am learning many more skills ,but i am more emphasize on web development
+                        now i complete my front end development part and i am doing my project ,then after i 
+                        i will learn back-end development.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>DSA</h2>
+                    <p>I am learning many more skills ,but i am more emphasize on web development
+                        now i complete my front end development part and i am doing my project ,then after i 
+                        i will learn back-end development.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-------------------Project------------->
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="Project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Amazon clone</h2>
+                    <p>In Amazon cloning we use html and css.
+                        key components used:Header,Navigation bar,Main content and Footer
+                    </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Landing page</h2>
+                <p>In Landing page we HTML,CSS and Javascipt.
+                    Key components are:Header,Hero section,Product categories
+                    Featured products and Footer
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Ecommerce website</h2>
+                <p>In Ecommerce website we use HTML and CSS
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-------------------------Contact--------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> danishzeeshan2003khan@gmail.com</p>
+                    <p><i class="fa-solid fa-circle-phone"></i> 8826395411</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ zeeshan <i class="fa-solid fa-heart"></i> khan portfolio</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+    </script>
+    
+</body>
+</html>
